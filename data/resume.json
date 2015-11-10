@@ -1,0 +1,324 @@
+{
+  "header": {
+    "name": {
+      "first": "Yashwanth",
+      "last": "Krishnamurthy"
+    },
+    "title": "Interactive resume",
+    "image": "/images/bg-main.jpg",
+    "menu": [
+      {
+        "link": "#profile",
+        "label": "Profile"
+      },
+      {
+        "link": "#experiences",
+        "label": "Experiences"
+      },
+      {
+        "link": "#abilities",
+        "label": "Abilities"
+      },
+      {
+        "link": "#interests",
+        "label": "Interests"
+      },
+      {
+        "link": "#contact",
+        "label": "Contact"
+      }
+    ]
+  },
+  "profile": {
+    "title": "I&#039;m a game developer / web developer",
+    "description": "I am a senior programmer with good knowledge of front-end and back-end application development techniques. I love architecting code flow and writing a clean code. I love spending time on fixing little details and optimizing and recursively finding better solutions to a problem. Also, I like working in a team, you'll learn faster and more.",
+    "avatar": "/images/yash2.jpg",
+    "detail": {
+      "name": "Yashwanth Krishnamurthy",
+      "age": 25,
+      "location": "Bangalore, India, Earth"
+    },
+    "twitter": {
+      "link": "https://twitter.com/krizyash",
+      "label": "Follow @Yash"
+    }
+  },
+  "experience": {
+    "quote": "&ldquo; The true sign of intelligence is not knowledge but imagination. &rdquo;<br />- Albert Einstein",
+    "section": [
+      {
+        "name": "Education",
+        "institution": [
+          {
+            "name": "BMS College of Engineering, Basavangudi",
+            "extra": {
+              "bold": false,
+              "text": "Jun 2007 - Jun 2011"
+            },
+            "title": "Course - Telecommunication",
+            "description": "The course was laid out concentrating on electronics and communication. It added on to my knowledge forming a perfect amalgamation of electronic science and passion of coding that I had.",
+            "footer": [
+              {
+                "type": "location",
+                "text": "Bangalore",
+                "link": ""
+              }
+            ]
+          },
+          {
+            "name": "IEEE Paper Publication",
+            "extra": {
+              "bold": true,
+              "text": "'Inertial Sensor Based Wireless Control Of A Robotic Arm'"
+            },
+            "title": "",
+            "description": "The paper describes and details the development of a wireless motion sensing control unit, whose operation is based on inertial sensors, and extends its application to the control of an anthropomorphic robotic arm. The data transmitted from the control unit has been analyzed and plotted in real time on a computer using MATLab, and the orientation of the control unit tracked and displayed. The project cycle involved prototyping the control system and the mechanical robot arm.",
+            "footer": [
+              {
+                "type": "link",
+                "text": "IEEE Paper",
+                "link": "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6152452"
+              },
+              {
+                "type": "location",
+                "text": "Las Vegas, Nevada",
+                "link": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Career",
+        "institution": [
+          {
+            "name": "Xmark Labs LLC",
+            "extra": {
+              "bold": false,
+              "text": "Nov 2013 - Present"
+            },
+            "title": "Fulltime - Game Developer (Back-end engine)",
+            "description": "A startup company working on a location based multiplayer online game for mobile platforms. I'm contributing towards end to end flow and dynamics that involve developing, testing, automating, deploying and maintaining the core functional logic and operations on the system backend. Keenly focused on real-time gameplay considering large distribution of players across the world. Also put my hands on front‐end graphical rendering and user interaction.",
+            "footer": [
+              {
+                "type": "location",
+                "text": "Bangalore",
+                "link": ""
+              },
+              {
+                "type": "link",
+                "text": "http://xmarklabs.com",
+                "link": "http://xmarklabs.com"
+              }
+            ]
+          },
+          {
+            "name": "Mcube Investment Technologies",
+            "extra": {
+              "bold": false,
+              "text": "Aug 2011 - Sep 2013"
+            },
+            "title": "Fulltime - Software developer (Web Technologies)",
+            "description": "Worked on developing a web application and an iOS hybrid app which provides institutional investors with a tailored reporting platform that gives CIOs/Boards/CEOs a diverse view of the portfolio. Key role was in developing dynamic, responsive web pages and animations for a visual treat.",
+            "footer": [
+              {
+                "type": "location",
+                "text": "Bangalore",
+                "link": ""
+              },
+              {
+                "type": "link",
+                "text": "http://www.mcubeit.com",
+                "link": "http://www.mcubeit.com"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ability": {
+    "quote": "&ldquo; If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. &rdquo;<br />-  Nikola Tesla",
+    "section": [
+      {
+        "name": "Skills",
+        "ability": [
+          {
+            "text": "Javascript",
+            "rating": 4
+          },
+          {
+            "text": "HTML(5)",
+            "rating": 3
+          },
+          {
+            "text": "CSS(3)",
+            "rating": 3
+          },
+          {
+            "text": "JSON",
+            "rating": 5
+          },
+          {
+            "text": "MVC Pattern",
+            "rating": 4
+          },
+          {
+            "text": "Object Orientated Programming",
+            "rating": 4
+          },
+          {
+            "text": "MySQL",
+            "rating": 4
+          },
+          {
+            "text": "C#",
+            "rating": 4
+          },
+          {
+            "text": "C++",
+            "rating": 3
+          },
+          {
+            "text": "Bootstrap Framework",
+            "rating": 3
+          },
+          {
+            "text": "Command line",
+            "rating": 4
+          },
+          {
+            "text": "JQuery",
+            "rating": 3
+          },
+          {
+            "text": "Java",
+            "rating": 3
+          },
+          {
+            "text": "SEO",
+            "rating": 3
+          }
+        ]
+      },
+      {
+        "name": "Languages",
+        "ability": [
+          {
+            "text": "English",
+            "rating": 4
+          },
+          {
+            "text": "Kannada",
+            "rating": 3
+          },
+          {
+            "text": "Hindi",
+            "rating": 3
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "ability": [
+          {
+            "text": "Sublime Text (3 years)",
+            "rating": 4
+          },
+          {
+            "text": "Microsoft Visual Studio 10+",
+            "rating": 4
+          },
+          {
+            "text": "Sublime Text (2 years)",
+            "rating": 4
+          },
+          {
+            "text": "Chrome browsers (4 years)",
+            "rating": 5
+          },
+          {
+            "text": "Firefox (4 years)",
+            "rating": 4
+          },
+          {
+            "text": "Internet Explore 6+ (2 years)",
+            "rating": 3
+          },
+          {
+            "text": "Mac (4 years)",
+            "rating": 5
+          },
+          {
+            "text": "Windows (10+ years)",
+            "rating": 5
+          },
+          {
+            "text": "Ubuntu Linux (3 years)",
+            "rating": 5
+          },
+          {
+            "text": "Git (3 year)",
+            "rating": 4
+          },
+          {
+            "text": "Filezilla (2 years)",
+            "rating": 3
+          },
+          {
+            "text": "JMeter",
+            "rating": 3
+          },
+          {
+            "text": "Jenkins",
+            "rating": 3
+          },
+          {
+            "text": "Adobe Photoshop (6 years)",
+            "rating": 3
+          }
+        ]
+      }
+    ]
+  },
+  "interest": {
+    "quote": "&ldquo; There is only one way to avoid criticism: do nothing, say nothing, and be nothing. &rdquo;<br />– Aristotle",
+    "section": [
+      {
+        "name": "Dance",
+        "description": "Can't stop grooving to my favorite music. Dance has become integral part of me and inseparable. I make time to pursue it, make videos, share and archive my journey. I team up with my former college dance crew and create more routines.",
+        "image": "/images/bboys.jpg"
+      },
+      {
+        "name": "Health",
+        "description": "I show my keen interest on health and nutrition. I believe one should take time in understanding their body and progress towards unleashing its fullest capabilities. You will discover a new person. A simple morning jog, workout or sports will keep you energized mentally and physically. It's awesome going wild breaking your diet, but should have the same amount of will to get back on track.",
+        "image": "/images/healthy-daily-life.jpg"
+      },
+      {
+        "name": "DIY Hobbies",
+        "description": "Technologies interests me at every level and the fact that it can be a leisurely hobby. I spend time tagging along with other enthusiasts and building DIY things, making it few of my mini-projects. Building quadcopter, tracking using Kinect camera, camera stabilizer, visualFX, cinematography has been some of my past projects.",
+        "image": "/images/quad.jpg"
+      },
+      {
+        "name": "Universe",
+        "description": "Space, universe, physics of nature, existence of life outside of our planet, fascinates me as its very mysterious and never ending. Love to gather facts and theories and get more understanding of the deepest knowledge of the universe that we know so far.",
+        "image": "/images/space.jpg"
+      }
+    ]
+  },
+  "contact": {
+    "quote": "",
+    "section": [
+      {
+        "type": "linkedin",
+        "link": "https://www.linkedin.com/in/yashwanthkrishna",
+        "text": "in.linkedin.com/yashwanthkrishna"
+      },
+      {
+        "type": "email",
+        "link": "mailto:moc.liamg@nhsirkhtnawhsay",
+        "text": "yashwanthkrishn@gmail.com"
+      }
+    ]
+  }
+}

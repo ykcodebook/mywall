@@ -1,0 +1,39 @@
+<div id="top" class="jumbotron" data-src="<%= header.image %>" data-position="center center">
+    <div class="container">
+        <h1><%= header.name.first %><br><%= header.name.last %></h1>
+        <p class="lead"><%= header.title %></p>
+    </div>
+    
+    <div class="overlay"></div>
+    
+    <a href="#profile" class="scroll-down"> 
+        <span class="glyphicon glyphicon-chevron-down"></span>
+    </a>
+</div>
+
+<nav class="navbar navbar-default" id="navbar-main" role="navigation">
+    <!-- Nav item get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+
+            <% for(var i=0; i<header.menu.length; i++) { %>
+
+                <li>
+                    <a href="<%= header.menu[i].link %>">
+                        <%= header.menu[i].label %>
+                    </a>
+                </li>
+
+            <% } %>
+        </ul>
+    </div>
+</nav>

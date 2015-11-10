@@ -1,0 +1,34 @@
+<div id="interests" class="container">
+    <h2>Interests</h2>
+    <p class="lead">
+        <%- interest.quote %>
+    </p>
+
+    <hr />
+
+    <% for(var i=0; i< interest.section.length; i++) { %>
+
+        <% var css = "left" %>
+        <% if (i%2!=0) { %>
+
+            <% css = "right" %>
+
+        <% } %>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-4 <%= css %>">
+                    <img src="<%= interest.section[i].image %>" alt="<%= interest.section[i].name %>" width="200" height="200" class="img-circle"/>
+                </div>
+                <div class="col-md-8 interest-content">
+                    <h3><%= interest.section[i].name %></h3>
+                    <p>
+                        <%= interest.section[i].description %>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    <% } %>
+    
+</div>

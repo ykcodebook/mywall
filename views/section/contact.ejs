@@ -1,0 +1,30 @@
+<div class="background-gray">
+    <div id="contact" class="container">
+        <h2>Contact</h2>
+        <p class="lead">
+            <%- contact.quote %>
+        </p>
+
+        <hr />
+
+        <div class="row">
+
+            <% for(var i=0; i< contact.section.length; i++) { %>
+
+            <div class="col-md-6">
+                <ul class="no-bullets">
+                    <li>      
+                        <a href="<%= contact.section[i].link %>" target="_blank">
+                            <span class="icon icon-<%= contact.section[i].type %>"></span>
+                            <span><%= contact.section[i].text %></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <% } %>
+        </div>
+
+        <hr />
+    </div>
+</div>

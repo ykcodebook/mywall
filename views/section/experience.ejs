@@ -1,0 +1,78 @@
+<div id="experiences" class="container">
+    <h2>Experiences</h2>
+    <p class="lead">
+        <%- experience.quote %>
+    </p>
+
+    <% for(var i=0; i< experience.section.length; i++) { %>
+
+        <hr />
+        <h3><%= experience.section[i].name %></h3>
+
+        <div class="experiences">
+            
+            <% for(var j=0; j< experience.section[i].institution.length; j++) { %>
+
+                <div class="experience row">
+                    <div class="col-md-4">
+                        <h4><%= experience.section[i].institution[j].name %></h4>
+                        <p class="experience-period">
+                            <% if (experience.section[i].institution[j].extra.bold) { %>
+                                <strong>
+                                    <%= experience.section[i].institution[j].extra.text %>
+                                </strong>
+                            <% } else {%>
+                                <%= experience.section[i].institution[j].extra.text %>
+                            <% } %>
+                            
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        <p>
+                            <% if (experience.section[i].institution[j].title != "") { %>
+                                <strong>
+                                <%= experience.section[i].institution[j].title %>
+                            </strong>
+                            <% } %>
+                            
+                            <span>
+                                <%= experience.section[i].institution[j].description %>
+                            </span>
+
+                            <span class="experience-details">
+                                <% for(var k=0; k< experience.section[i].institution[j].footer.length; k++) { %>
+
+                                    <% if (experience.section[i].institution[j].footer[k].type == "link") { %>
+
+                                            <span class="link">
+                                                <span class="glyphicon glyphicon-link"></span>
+                                                <a href="<%= experience.section[i].institution[j].footer[k].link %>" target="_blank"><%= experience.section[i].institution[j].footer[k].text %></a>
+                                            </span>
+
+                                    <% } else if (experience.section[i].institution[j].footer[k].type == "location") { %>
+                                            <span class="location">
+                                                <span class="glyphicon glyphicon-map-marker"></span>
+                                                <%= experience.section[i].institution[j].footer[k].text %>
+                                            </span>
+
+                                    <% } %>
+                                    <% if (experience.section[i].institution[j].footer.length != 1 && k != experience.section[i].institution[j].footer.length-1) { %>
+
+                                        <span class="seperator">|</span>
+
+                                    <% } %>
+
+                                <% } %>
+                            </span>
+
+                        </p>
+                    </div>
+                </div>
+
+            <% } %>
+
+        </div>
+
+    <% } %>
+
+</div>

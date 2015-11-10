@@ -1,0 +1,34 @@
+<div class="background-white">
+    <div id="profile" class="container">
+        <h2>Profile</h2>
+        <p class="lead"><%- profile.title %></p>
+
+        <hr />
+
+        <div class="row">
+            <div class="col-md-4">
+                <h3>About me</h3>
+                <p>
+                    <%= profile.description %>
+                </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="<%= profile.avatar %>" alt="<%= profile.detail.name %>" width="246" height="246" class="img-circle"/>
+            </div>
+            <div class="col-md-4">
+                <h3>Details</h3>
+                <p>
+                    <strong>Name:</strong><br />
+                    <%= profile.detail.name %><br />
+                    <strong>Age:</strong><br />
+                    <%= profile.detail.age %> years<br />
+                    <strong>Location:</strong><br />
+                    <%= profile.detail.location %>
+                </p>
+                
+                <a href="<%= profile.twitter.link %>" class="btn btn-info" role="button" target="_blank"><%= profile.twitter.label %>
+                </a>
+            </div>
+        </div>          
+    </div>  
+</div>

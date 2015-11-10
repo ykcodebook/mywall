@@ -1,0 +1,67 @@
+<div class="background-white">
+    <div id="abilities" class="container">
+        <h2>Abilities</h2>
+        <p class="lead">
+            <%- ability.quote %>
+        </p>
+
+        <% for(var i=0; i< ability.section.length; i++) { %>
+
+        <hr />
+
+        <h3><%= ability.section[i].name %></h3>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="no-bullets">
+                    
+                    <% for(var j=0; j< Math.ceil(ability.section[i].ability.length/2); j++) { %>
+                    <li>
+                        <span class="ability-title"><%= ability.section[i].ability[j].text %></span>
+                        <span class="ability-score">
+                        
+                            <% for(var k=0; k< 5; k++) { %>
+                                <% if (ability.section[i].ability[j].rating != 0) { %>            
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                    <% ability.section[i].ability[j].rating--; %>
+                                <% } else { %>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                <% } %>
+
+                            <% } %>
+                        </span>
+                    </li>
+
+                    <% } %>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="no-bullets">
+                    
+                    <% for(var j=Math.ceil(ability.section[i].ability.length/2); j< ability.section[i].ability.length; j++) { %>
+                    <li>
+                        <span class="ability-title"><%= ability.section[i].ability[j].text %></span>
+                        <span class="ability-score">
+                        
+                            <% for(var k=0; k< 5; k++) { %>
+                                <% if (ability.section[i].ability[j].rating != 0) { %>            
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                    <% ability.section[i].ability[j].rating--; %>
+                                <% } else { %>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                <% } %>
+
+                            <% } %>
+                        </span>
+                    </li>
+                    
+                    <% } %>
+                </ul>
+            </div>
+            
+        </div>
+
+        <% } %>
+
+    </div>
+</div>
+                
