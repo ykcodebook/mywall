@@ -14,7 +14,7 @@ Make sure [node.js] is installed in your system.
 Run the following command to clone the repository
 
 ```sh
-$ git clone [git-repo-url]
+$ git clone https://github.com/ykcodebook/mywall.git
 $ cd mywall
 ```
 Install dependencies as listed in package.json by running following command
@@ -31,5 +31,4 @@ $ sails lift
    [resume.json]: <https://github.com/ykcodebook/mywall/blob/master/data/resume.json>
    [EJS]: <http://www.embeddedjs.com/>
    [Pascal van Gemert]: <http://www.pascalvangemert.nl/>
-   [git-repo-url]: <https://github.com/ykcodebook/mywall.git>
    [Yashwanth Krishnamurthy]: <https://ykwall.herokuapp.com>
