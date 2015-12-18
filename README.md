@@ -21,9 +21,9 @@ Install dependencies as listed in package.json by running following command
 ```sh
 $ npm install
 ```
-To launch the app simply run the sails command line
+To launch the app simply run the app.js file from the root directory
 ```sh
-$ sails lift
+$ node app.js
 ```
 ### Author
 [Yashwanth Krishnamurthy]
@@ -32,3 +32,4 @@ $ sails lift
    [EJS]: <http://www.embeddedjs.com/>
    [Pascal van Gemert]: <http://www.pascalvangemert.nl/>
    [Yashwanth Krishnamurthy]: <https://ykwall.herokuapp.com>
+   [node.js]: <https://nodejs.org>
