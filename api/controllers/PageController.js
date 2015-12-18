@@ -10,9 +10,11 @@ module.exports = {
 	display: function (req, res) {
 
 		var Filesystem = require('machinepack-fs');
+		var path = require('path');
 
-		var filePath = process.env.PWD + '/data/resume.json';
-
+		// var filePath = process.env.PWD + '/data/resume.json';
+		var filePath = path.dirname(require.main.filename) + '/data/resume.json';
+		sails.log(filePath);
 		// Read and parse JSON file located at source path on disk into usable data.
 		Filesystem.readJson({
 			source: filePath,
